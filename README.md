@@ -17,6 +17,30 @@ United Kingdom declined slightly (–5%).
 
 Across the five comparable countries, the total population increased by 38%.
 
+### 2022 Population — Top 5 Countries (FVAP 2022)
+- **Canada:** 909,709  
+- **Mexico:** 539,450  
+- **United Kingdom:** 343,325  
+- **France:** 191,930  
+- **Israel:** 159,134  
+
+### Americans Abroad in 2023 — Comparable Countries Only
+These values reflect the five countries for which both 2022 (FVAP) and 2023 (AARO/Pinto) data are available, ensuring a consistent year‑over‑year comparison.
+
+- **Mexico:** 1,182,346  
+- **Canada:** 1,050,898  
+- **United Kingdom:** 325,321  
+- **Israel:** 281,137  
+- **France:** 117,462  
+
+### Year‑Over‑Year Comparison (2022 → 2023)
+- Total comparable population increased by **38%**  
+- **Mexico** and **Israel** show the strongest growth  
+- **France** shows the largest decline  
+- Canada grew modestly, while the United Kingdom declined slightly  
+
+These five countries form the basis of the dashboard’s YoY analysis, ensuring methodological consistency across both datasets.
+
 🧩 Data Sources
 FVAP (Federal Voting Assistance Program), 2022  
 Population estimates of U.S. citizens living abroad
