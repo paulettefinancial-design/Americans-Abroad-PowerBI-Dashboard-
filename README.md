@@ -1,6 +1,7 @@
 # 🇺🇸 Americans Living Abroad: Power BI Dashboard (2022–2023)
 
 This project analyzes changes in the estimated number of Americans living abroad between **2022 (FVAP)** and **2023 (AARO/Pinto)**.  
+
 It highlights year‑over‑year shifts, identifies countries with the strongest growth or decline, and visualizes the data through a clean, interactive Power BI dashboard.
 
 ---
