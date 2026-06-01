@@ -1,147 +1,76 @@
-🇺🇸 Americans Abroad Power BI Dashboard
-Year‑Over‑Year Analysis (2022 → 2023)
-This project is an interactive Power BI dashboard analyzing how the population of Americans living abroad changed between 2022 and 2023. The analysis uses two independent data sources — FVAP (2022) and AARO/Pinto (2023) — and combines them into a unified, insight‑driven visual experience.
+# 🇺🇸 Americans Living Abroad: Power BI Dashboard (2022–2023)
 
-The dashboard highlights migration patterns, country‑level growth and decline, and broader global trends using a clean dimensional model, DAX‑driven calculations, and custom visual indicators.
+This project analyzes changes in the estimated number of Americans living abroad between **2022 (FVAP)** and **2023 (AARO/Pinto)**.  
+It highlights year‑over‑year shifts, identifies countries with the strongest growth or decline, and visualizes the data through a clean, interactive Power BI dashboard.
 
-📊 Key Insights
-Mexico shows the strongest year‑over‑year growth (+119%).
+---
 
-Israel also experienced significant expansion (+77%).
+## 📊 Full Dashboard Overview
 
-Canada grew modestly (+16%).
+![Full Dashboard](screenshots/AmericansAbroad_Dashboard_Full.png)
 
-France saw the sharpest decline (–39%).
+---
 
-United Kingdom declined slightly (–5%).
+## 🔍 Key Insights (2022 → 2023)
 
-Across the five comparable countries, the total population increased by 38%.
+- **Mexico** shows the strongest year‑over‑year growth (**+119%**)  
+- **Israel** also experienced significant expansion (**+77%**)  
+- **Canada** grew modestly (**+16%**)  
+- **France** saw the sharpest decline (**–39%**)  
+- **United Kingdom** declined slightly (**–5%**)  
+- Across the five comparable countries, the total population increased by **38%**
 
-### 2022 Population — Top 5 Countries (FVAP 2022)
-- **Canada:** 909,709  
-- **Mexico:** 539,450  
-- **United Kingdom:** 343,325  
-- **France:** 191,930  
-- **Israel:** 159,134  
+---
 
-### Americans Abroad in 2023 — Comparable Countries Only
-These values reflect the five countries for which both 2022 (FVAP) and 2023 (AARO/Pinto) data are available, ensuring a consistent year‑over‑year comparison.
+## 📈 2022: Top 5 Countries (FVAP)
 
-- **Mexico:** 1,182,346  
-- **Canada:** 1,050,898  
-- **United Kingdom:** 325,321  
-- **Israel:** 281,137  
-- **France:** 117,462  
+![2022 Top 5](screenshots/2022_top5_bar.png)
 
-### Year‑Over‑Year Comparison (2022 → 2023)
-- Total comparable population increased by **38%**  
-- **Mexico** and **Israel** show the strongest growth  
-- **France** shows the largest decline  
-- Canada grew modestly, while the United Kingdom declined slightly  
+---
 
-These five countries form the basis of the dashboard’s YoY analysis, ensuring methodological consistency across both datasets.
+## 📈 2023: Top 5 Countries (AARO/Pinto)
 
-🧩 Data Sources
-FVAP (Federal Voting Assistance Program), 2022  
-Population estimates of U.S. citizens living abroad
+![2023 Top 5](screenshots/2023_top5_bar.png)
 
-AARO / Pinto, 2023  
-Updated estimates of Americans abroad by country
+---
 
-These datasets differ in methodology, so the dashboard focuses on directional trends rather than strict numerical equivalence.
+## 🗺️ 2023 Map View
 
-🏗️ Data Model
-The model integrates multiple fact tables (2022 and 2023 population data) connected through shared dimensions.
-Year‑over‑year metrics are calculated using DAX rather than a physical YoY table.
+![2023 Map](screenshots/2023_map.png)
 
-Model Components
-Fact Tables
+---
 
-FVAP_2022
+## 📋 Year‑Over‑Year Comparison Table
 
-AARO_2023
+![YoY Comparison](screenshots/AmericansAbroad_YoY_Comparison.png)
 
-Dimension Tables
+---
 
-Dim_Country
+## 📁 Data Sources
 
-Dim_Year
+- **2022 Estimates:** Federal Voting Assistance Program (FVAP)  
+- **2023 Estimates:** Association of Americans Resident Overseas (AARO) / Pinto Research  
 
-(Optional) Dim_Source
+---
 
-Star Schema (Conceptual)
-Code
-                 Dim_Country
-                       |
-                       |
-Dim_Year ---- Fact Tables (2022 & 2023)
-The YoY comparison is constructed through DAX measures and visuals rather than a physical table.
+## 🛠️ Tools Used
 
-🧮 DAX Highlights
-The dashboard uses DAX to calculate:
+- **Power BI** — Data modeling, DAX, and visualization  
+- **GitHub** — Version control and project documentation  
+- **Excel / CSV** — Data preparation  
 
-Year‑over‑year population change
+---
 
-Percent growth/decline
+## 📌 About This Project
 
-Conditional formatting indicators
+This dashboard is part of my analytics portfolio, demonstrating:
 
-Dynamic titles and tooltips
+- Data cleaning and transformation  
+- DAX calculations  
+- Visual storytelling  
+- Year‑over‑year analysis  
+- Dashboard layout and design  
 
-Example measure (simplified):
+If you’d like to explore the dashboard further, the `.pbix` file is included in this repository.
 
-DAX
-Percent Growth =
-DIVIDE(
-    [Americans 2023] - [US Citizens 2022],
-    [US Citizens 2022]
-)
-🖼️ Dashboard Features
-Horizontal bar charts for 2022 and 2023
 
-Year‑over‑year comparison table
-
-Highlighted growth/decline indicators
-
-Global map visualization
-
-Clean, accessible layout
-
-Insight‑driven design choices
-
-📁 Repository Structure
-Code
-/screenshots        → Dashboard images (add yours here)
-/data               → (Optional) Source files or documentation
-Americans-Abroad-PowerBI-Dashboard.pbix
-README.md
-🧠 Skills Demonstrated
-Power BI (Modeling, DAX, Visualization)
-
-Data cleaning and transformation
-
-Multi‑source data integration
-
-Dimensional modeling
-
-Insight communication
-
-Visual storytelling
-
-Portfolio‑ready documentation
-
-📥 How to Use
-Download the .pbix file from this repository
-
-Open in Power BI Desktop
-
-Explore the visuals, filters, and YoY analysis
-
-📌 Future Enhancements
-Add additional countries as data becomes available
-
-Expand to multi‑year trend analysis
-
-Add drill‑through pages
-
-Incorporate demographic segmentation (if data allows)
