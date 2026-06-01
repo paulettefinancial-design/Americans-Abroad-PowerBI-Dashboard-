@@ -1,11 +1,8 @@
 # 🇺🇸 Americans Living Abroad: Power BI Dashboard (2022–2023)
 
-This project analyzes changes in the estimated number of Americans living abroad between **2022 (FVAP)** and **2023 (AARO/Pinto)**.  
-
-It highlights year‑over‑year shifts, identifies countries with the strongest growth or decline, and visualizes the data through a clean, interactive Power BI dashboard.
+This project provides a clear, data‑driven comparison of Americans living abroad in 2022 vs. 2023 using official FVAP and AARO/Pinto estimates. The dashboard highlights major year‑over‑year population shifts, identifies countries with the strongest growth or decline, and presents the findings through clean, intuitive Power BI visuals. It demonstrates skills in data modeling, DAX, visual storytelling, and dashboard design while transforming raw population estimates into actionable insights.
 
 ---
-
 ## 📊 Full Dashboard Overview
 
 ![Full Dashboard](screenshots/AmericansAbroad_Dashboard_Full.png)
@@ -59,6 +56,18 @@ It highlights year‑over‑year shifts, identifies countries with the strongest
 - **Power BI** — Data modeling, DAX, and visualization  
 - **GitHub** — Version control and project documentation  
 - **Excel / CSV** — Data preparation  
+
+---
+
+## 🔮 Future Enhancements
+
+- **Integrate the “Reasons Americans Move Abroad” dataset** to provide context behind population changes and enrich the narrative with motivation‑based insights  
+- **Add additional countries** as more reliable population estimates become available  
+- **Expand to multi‑year trend analysis** once 2024+ data is released  
+- **Include demographic segmentation** (age, occupation, dual citizenship) if future datasets support it  
+- **Add drill‑through pages** for country‑level deep dives and regional comparisons  
+- **Incorporate interactive tooltips** to provide context on data sources and methodology  
+- **Automate data refresh** using Power BI dataflows or scheduled pipelines if recurring updates become available
 
 ---
 
